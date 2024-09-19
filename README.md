@@ -13,3 +13,6 @@ On average, the obtained score was about 250 to 350.
 One of the issues with this game, also mentioned by others here: https://github.com/Maskime/convolutional-dqn/tree/master is the frames in the environments.
 Sometimes the stars are not shown in the right hand side of the frame, sometimes the agent disappears.
 However, by using LSTM, our results improved significantly. I believe that by increasing the sequence length and the number of blocks in the LSTM layer, results will also improve due to the temporal dynamics captured by the LSTM.
+
+## Credits
+Part of this code was done as a project in the following Udemy course: https://www.udemy.com/course/artificial-intelligence-az/?couponCode=ST11MT91624A
